@@ -1,0 +1,46 @@
+@media screen and (max-width: 991px) {
+  .nav-toggle {
+    display: block;
+    text-decoration: none;
+  }
+
+  .nav-toggle i {
+    color: black;
+  }
+
+  .right-navbar {
+    display: none;
+  }
+  .example-card1 {
+    width: calc(50% - 10px);
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    margin: 10px;
+  }
+  .example-card2 {
+    width: calc(50% - 10px);
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    margin: 5px;
+  }
+  .example-card3 {
+    width: calc(50% - 10px);
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    margin: 10px;
+  }
+  .example-card4 {
+    width: calc(50% - 10px);
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    margin: 10px;
+  }
+}

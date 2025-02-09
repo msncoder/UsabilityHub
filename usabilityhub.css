@@ -6,6 +6,12 @@
   padding: 0;
 }
 
+.container {
+  margin: auto;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
 .top-banner {
   background-color: #4fb3d4;
   background-image: url("./assets/asset\ 32.png");
@@ -23,8 +29,6 @@
 /* Navbar section css  */
 
 .navbar {
-  margin: auto;
-  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,14 +70,17 @@
   color: #ffffff;
 }
 
+.nav-toggle {
+  display: none;
+}
+
 /* Hero section css  */
 
 .hero {
   /* border: 1px solid red; */
   padding-top: 20px;
   display: flex;
-  max-width: 1200px;
-  margin: auto;
+
   /* justify-content: center;
   align-items: center; */
 }
@@ -118,10 +125,6 @@
 }
 
 /* bottom banner css  */
-
-.bottom-banner {
-  /* text-align: center; */
-}
 
 .bottom-banner-p {
   text-align: center;
@@ -177,10 +180,6 @@
 /* Cards section start here  */
 
 .cards {
-  /* border: 1px solid green; */
-  max-width: 1200px;
-  margin: auto;
-  /* margin-top: 10px; */
   display: flex;
   flex-wrap: wrap;
   /* row-gap: 10px; */
@@ -238,9 +237,7 @@
 /* feature1 starts here  */
 
 .feature1 {
-  max-width: 1080px;
   padding: 30px;
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -279,9 +276,7 @@
 /* feature2 starts here  */
 
 .feature2 {
-  max-width: 1080px;
   padding: 30px;
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -320,10 +315,8 @@
 /* examples card section  */
 
 .examples-card {
-  max-width: 1080px;
-  /* border: 1px solid green; */
-  margin: auto;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
