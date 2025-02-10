@@ -50,28 +50,30 @@
     grid-template-columns: 1fr 1fr;
     /* border: 2px solid red; */
     justify-items: center;
+    gap: 10px;
+    padding: 20px;
   }
   .example-card1 {
     /* border: 2px solid green; */
-    width: 370px;
+    width: 49vw;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .example-card2 {
     /* border: 2px solid green; */
-    width: 370px;
+    width: 49vw;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .example-card3 {
     /* border: 2px solid green; */
-    width: 370px;
+    width: 49vw;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .example-card4 {
     /* border: 2px solid green; */
-    width: 370px;
+    width: 49vw;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -85,5 +87,124 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .left-hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-hero h1 {
+    color: #183b56;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .left-hero p {
+    color: #7e7f85;
+    font-family: Poppins;
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+
+  .left-hero button {
+    margin-top: 10px;
+    width: 80vw;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2294ed;
+    color: #ffffff;
+  }
+
+  .feature1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+  }
+
+  .left img {
+    width: 300px;
+  }
+  .feature2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+  }
+
+  .right img {
+    width: 300px;
+  }
+
+  .upper-card-desc h1 {
+    text-align: center;
+  }
+
+  .examples-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .upper-footer {
+    height: 200px;
+    row-gap: 20px;
+  }
+
+  .upper-footer h1 {
+    font-size: large;
+    font-weight: 600px;
+  }
+  .upper-footer button {
+    width: 40vw;
+    height: 40px;
+  }
+
+  .footer {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Height adjust based on content */
+    flex-direction: column; /* Stack inner divs vertically */
+    gap: 40px; /* Reduce gap between items */
+    padding: 20px; /* Add some padding */
+  }
+
+  .inner-div img {
+    width: 250px;
+  }
+
+  .inner-div {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Height adjust based on content */
+    align-items: center; /* Center align content */
+    text-align: center; /* Center text */
+    margin-top: 0; /* Remove extra margin */
+  }
+
+  .inner-div h1 {
+    font-size: 24px; /* Reduce heading size */
+  }
+
+  .inner-div p {
+    font-size: 14px; /* Reduce paragraph size */
   }
 }
