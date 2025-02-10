@@ -1,4 +1,8 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 0 20px;
+  }
+
   .nav-toggle {
     display: block;
     text-decoration: none;
@@ -6,41 +10,80 @@
 
   .nav-toggle i {
     color: black;
+    font-size: 30px;
   }
 
   .right-navbar {
     display: none;
   }
+  .hero {
+    padding: 0 20px;
+  }
+  .left-hero h1 {
+    color: #183b56;
+    font-weight: 1000;
+    font-family: Roboto;
+    font-size: 40px;
+    padding-bottom: 8px;
+  }
+
+  .left-hero p {
+    color: #7e7f85;
+    font-family: Poppins;
+    font-size: 15px;
+    padding-bottom: 8px;
+  }
+
+  .left-hero button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2294ed;
+    color: #ffffff;
+  }
+
+  .examples-card {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid red; */
+    justify-items: center;
+  }
   .example-card1 {
-    width: calc(50% - 10px);
-    /* background-position: cover; */
-    background-repeat: no-repeat;
+    /* border: 2px solid green; */
+    width: 370px;
     background-size: cover;
-    height: 180px;
-    margin: 10px;
+    background-repeat: no-repeat;
   }
   .example-card2 {
-    width: calc(50% - 10px);
-    /* background-position: cover; */
-    background-repeat: no-repeat;
+    /* border: 2px solid green; */
+    width: 370px;
     background-size: cover;
-    height: 180px;
-    margin: 5px;
+    background-repeat: no-repeat;
   }
   .example-card3 {
-    width: calc(50% - 10px);
-    /* background-position: cover; */
-    background-repeat: no-repeat;
+    /* border: 2px solid green; */
+    width: 370px;
     background-size: cover;
-    height: 180px;
-    margin: 10px;
+    background-repeat: no-repeat;
   }
   .example-card4 {
-    width: calc(50% - 10px);
-    /* background-position: cover; */
-    background-repeat: no-repeat;
+    /* border: 2px solid green; */
+    width: 370px;
     background-size: cover;
-    height: 180px;
-    margin: 10px;
+    background-repeat: no-repeat;
+  }
+
+  .footer {
+    /* border: 1px solid green; */
+    height: 400px;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
   }
 }
