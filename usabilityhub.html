@@ -26,7 +26,7 @@
 
       <section class="navbar">
         <div class="left-navbar"><img src="./assets/asset 1.png" alt="" /></div>
-        <div class="right-navbar">
+        <div class="right-navbar" id="navbar-active">
           <ul>
             <li><a href="#">Products</a></li>
             <li><a href="#">Customers</a></li>
@@ -40,7 +40,7 @@
             </li>
           </ul>
         </div>
-        <a href="#" class="nav-toggle hover-link"
+        <a href="#" class="nav-toggle hover-link" id="nav-toggle"
           ><i class="ri-menu-line"></i
         ></a>
       </section>
@@ -288,5 +288,13 @@
     <section class="lower-footer">
       <p>Made by © MSN.Dev | All rights reserve ❤️</p>
     </section>
+
+    <script>
+      const toggle_btn = document.getElementById("nav-toggle");
+      const nav_link = document.getElementById("navbar-active");
+      toggle_btn.addEventListener("click", () => {
+        nav_link.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
